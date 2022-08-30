@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_settings"
+            
+            android:title="Profile Setting" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_notification__2_"
+            android:title="Notification" />
+        <item
+            android:icon="@drawable/ic_security"
+            android:title="Security" />
+        <item
+
+            android:icon="@drawable/url_icon"
+            android:title="Suggestions" />
+        <item
+            android:icon="@drawable/ic_icon_contact"
+            android:title="Contact US" />
+        <item
+            android:icon="@drawable/ic_settings"
+            android:title="Language" />
+        <item
+            android:icon="@drawable/ic_change_iconn"
+            android:title="Change password" />
+        <item
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Log Out" />
+    </group>
+</menu>

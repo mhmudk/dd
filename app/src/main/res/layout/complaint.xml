@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:src="@drawable/complaint_pic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/cairo_bold"
+            android:gravity="center_horizontal"
+            android:text="Complaint and suggestion"
+            android:textColor="#11533B"
+
+            android:textSize="@dimen/_22ssp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bg_password"
+            android:fontFamily="@font/cairo"
+
+            android:gravity="start"
+
+            android:hint="Your Message"
+            android:padding="@dimen/_5sdp" />
+
+        <Button
+            android:id="@+id/welcome"
+            android:layout_width="@dimen/_260sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/custome_button_green"
+            android:fontFamily="@font/cairo_bold"
+            android:textColor="@color/white"
+
+            android:text="Send"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "134308606560",
+    "project_id": "dwayer-9a0e8",
+    "storage_bucket": "dwayer-9a0e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134308606560:android:28eaec17de36285dc0c905",
+        "android_client_info": {
+          "package_name": "com.example.dwayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134308606560-21gkdkpfpv7b070son693ogkhc8fr74h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzDfePxJTDBfPIAbxLCmbM9F0iR1E0MZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134308606560-21gkdkpfpv7b070son693ogkhc8fr74h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

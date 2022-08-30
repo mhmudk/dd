@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:background="@color/maincolor"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="17dp"
+                android:rotation="180"
+                android:src="@drawable/back_iconwhite"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="128dp"
+                android:fontFamily="@font/cairo_bold"
+                android:text="Home"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="132dp"
+
+                android:src="@drawable/profile_home"
+                app:layout_constraintBottom_toBottomOf="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/textView3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.952" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:gravity="center_horizontal"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_5sdp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="85dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="42dp"
+                        android:src="@drawable/payied"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="@font/cairo_semibold"
+                        android:text="Free Fees"
+                        android:textSize="@dimen/_10ssp"
+                        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+                        app:layout_constraintHorizontal_bias="0.562"
+                        app:layout_constraintStart_toStartOf="@+id/imageView7"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_margin="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_5sdp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="88dp"
+                        android:layout_height="85dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="42dp"
+                        android:src="@drawable/payied"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="@font/cairo_semibold"
+                        android:text="Free Fees"
+                        android:textSize="@dimen/_10ssp"
+                        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+                        app:layout_constraintHorizontal_bias="0.562"
+                        app:layout_constraintStart_toStartOf="@+id/imageView8"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_margin="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_5sdp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="88dp"
+                        android:layout_height="85dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="42dp"
+                        android:src="@drawable/payied"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="@font/cairo_semibold"
+                        android:text="Free Fees"
+                        android:textSize="@dimen/_10ssp"
+                        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                        app:layout_constraintHorizontal_bias="0.562"
+                        app:layout_constraintStart_toStartOf="@+id/imageView9"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_290sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="@dimen/_8sdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/moneyyy"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Amount of capture"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5000"
+                                android:textColor="#3B508D"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textSize="@dimen/_10ssp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="L.E"
+                                android:textColor="#3B508D"
+                                android:padding="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textSize="@dimen/_10ssp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Arrest date"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2/2/2022"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="#3B508D"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:layout_width="@dimen/_57sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="20%"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#33995A"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_gravity="end"
+
+                    android:fontFamily="@font/roboto_bold"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_290sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="@dimen/_8sdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/moneyyy"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Amount of capture"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5000"
+                                android:textColor="#3B508D"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textSize="@dimen/_10ssp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="L.E"
+                                android:textColor="#3B508D"
+                                android:padding="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textSize="@dimen/_10ssp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Arrest date"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2/2/2022"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="#3B508D"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:layout_width="@dimen/_57sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="20%"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#33995A"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_gravity="end"
+
+                    android:fontFamily="@font/roboto_bold"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_290sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="@dimen/_8sdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/moneyyy"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Amount of capture"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5000"
+                                android:textColor="#3B508D"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textSize="@dimen/_10ssp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="L.E"
+                                android:textColor="#3B508D"
+                                android:padding="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textSize="@dimen/_10ssp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Arrest date"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2/2/2022"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="#3B508D"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:layout_width="@dimen/_57sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="20%"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#33995A"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_gravity="end"
+
+                    android:fontFamily="@font/roboto_bold"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_290sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="@dimen/_8sdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/moneyyy"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Amount of capture"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5000"
+                                android:textColor="#3B508D"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textSize="@dimen/_10ssp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="L.E"
+                                android:textColor="#3B508D"
+                                android:padding="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textSize="@dimen/_10ssp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Arrest date"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2/2/2022"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="#3B508D"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:layout_width="@dimen/_57sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="20%"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#33995A"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_gravity="end"
+
+                    android:fontFamily="@font/roboto_bold"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
