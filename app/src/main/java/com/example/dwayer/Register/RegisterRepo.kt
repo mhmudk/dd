@@ -1,10 +1,9 @@
 package com.example.dwayer.Register
 
 import com.example.dwayer.Pojo.User
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.FirebaseDatabase
 
 class RegisterRepo {
+       /*
         fun createUserWithEmailAndPassword(user: User): Boolean {
             val result = true
             try {
@@ -35,6 +34,6 @@ class RegisterRepo {
             dataRef.child(FirebaseAuth.getInstance().currentUser?.uid.toString()).setValue(user)
         }
 
-
+*/
 
 }

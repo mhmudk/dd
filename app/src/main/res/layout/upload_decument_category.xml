@@ -2,72 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="@drawable/bg_category"
-        android:gravity="center"
-        android:orientation="vertical">
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_130sdp"
-            android:background="@drawable/bgcateg"
-            >
 
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:layout_marginStart="16dp"
-                android:padding="@dimen/_15sdp"
-                android:rotation="180"
-                android:src="@drawable/back_iconwhite"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.009" />
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
-                android:fontFamily="@font/cairo_semibold"
-                android:gravity="center"
-                android:text="How do you "
-                android:textColor="@color/white"
-                android:textSize="@dimen/_20ssp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/cairo_semibold"
-                android:gravity="center"
-                android:text="participate in the association?"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_20ssp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView11" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="5"
-        android:orientation="vertical"
-        android:gravity="center_horizontal"
-        android:padding="@dimen/_10sdp">
 <ImageView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -103,27 +42,9 @@
     android:orientation="horizontal"
     android:layout_gravity="bottom"
     >
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Skip"
-        android:fontFamily="@font/cairo_semibold"
-        android:textSize="@dimen/_14ssp"
-        android:textColor="#969494"
-        android:layout_weight="1"
-        android:gravity="center"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Next"
-        android:layout_weight="1"
-        android:fontFamily="@font/cairo_bold"
-        android:textSize="@dimen/_14ssp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:gravity="center"/>
+
 </LinearLayout>
-    </LinearLayout>
+
 
 
 </LinearLayout>

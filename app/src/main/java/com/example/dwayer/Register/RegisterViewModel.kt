@@ -11,7 +11,7 @@ class RegisterViewModel: ViewModel() {
     val mutable: LiveData<Boolean> = _mutable
 
     fun Registeration(user: User) {
-        _mutable.postValue(repo.createUserWithEmailAndPassword(user))
+      //  _mutable.postValue(repo.createUserWithEmailAndPassword(user))
     }
 
 }
