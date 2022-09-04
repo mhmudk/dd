@@ -1,162 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@drawable/gradiant">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_login_new2"
+    android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="@drawable/custome_loginbg_green"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:layout_marginTop="32dp"
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/_80sdp"
-            android:src="@drawable/dwayer" />
+        android:layout_marginEnd="148dp"
+        android:src="@drawable/ic_logo_updated"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/arial"
-            android:text="دواير"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_40ssp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/roboto_bold"
-            android:text="Dwayer"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_15ssp"
-            android:textStyle="bold" />
-
-        <View
-            android:layout_width="62dp"
-            android:layout_height="1dp"
-            android:layout_gravity="center"
-            android:background="#ffffff" />
-    </LinearLayout>
-
-    <LinearLayout
+    <EditText
+        android:id="@+id/editText2"
         android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/input_phone_number"
+        android:fontFamily="@font/roboto"
+        android:hint="Phone Number"
+        android:paddingLeft="@dimen/_5sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:padding="@dimen/_10sdp">
+        android:buttonTint="@color/white"
+        android:fontFamily="@font/roboto"
+        android:text="I have accepted the"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.042" />
 
-        <EditText
-            android:id="@+id/email_fire"
-            android:layout_width="@dimen/_290sdp"
-            android:layout_height="@dimen/_45sdp"
-            android:layout_marginTop="@dimen/_20sdp"
-            android:background="@drawable/bg_password"
-            android:drawablePadding="@dimen/_10sdp"
-            android:hint="Phone number"
-            android:paddingStart="@dimen/_10sdp" />
+    <TextView
 
-        <EditText
-            android:id="@+id/passwordfire"
-            android:layout_width="@dimen/_290sdp"
-            android:layout_height="@dimen/_45sdp"
-            android:layout_marginTop="@dimen/_15sdp"
-            android:background="@drawable/bg_password"
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto"
+        android:text="Terms and Conditions"
+        android:textColor="#2500EE"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="@+id/checkBox" />
 
-            android:drawableRight="@drawable/visibilty"
-            android:hint="Password"
-            android:paddingStart="@dimen/_10sdp"
-            android:paddingRight="@dimen/_10sdp" />
+    <View
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="1dp"
+        android:backgroundTint="#00818A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView24"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:layout_constraintVertical_bias="0.0" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:fontFamily="@font/roboto"
-            android:paddingLeft="@dimen/_8sdp"
-            android:text="The password must be between 4 and 6 characters"
-            android:textColor="#969494"
-            android:textSize="@dimen/_10ssp" />
-
-
-
-        <TextView
-            android:id="@+id/goto_forgetpassword"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start"
-            android:fontFamily="@font/cairo_semibold"
-            android:text="Forget your password ? "
-            android:paddingLeft="@dimen/_10sdp"
-            android:layout_marginTop="@dimen/_15sdp"
-            android:textColor="#2A76BA"
-            android:textSize="@dimen/_10ssp" />
-
-
-        <Button
-            android:id="@+id/welcome"
-            android:layout_width="@dimen/_260sdp"
-            android:layout_height="@dimen/_50sdp"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/_50sdp"
-            android:background="@drawable/custome_button_green"
-            android:fontFamily="@font/cairo_bold"
-            android:text="LOG IN "
-            android:textColor="@color/white"
-            android:textAllCaps="false"
-            android:textSize="@dimen/_16ssp"
-            android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_15sdp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-
-                android:fontFamily="@font/roboto"
-                android:paddingLeft="@dimen/_25sdp"
-                android:text="Already Have An Account ?"
-                android:textColor="#969494"
-                android:textSize="@dimen/_10ssp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/goto_signup_login"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:fontFamily="@font/cairo_bold"
-                    android:text="SIGN UP"
-                    android:textColor="@color/maincolor"
-                    android:textSize="@dimen/_10ssp" />
-
-                <View
-                    android:layout_width="@dimen/_36sdp"
-                    android:layout_height="1dp"
-                    android:layout_gravity="center"
-                    android:background="#2A76BA" />
-            </LinearLayout>
-
-        </LinearLayout>
-    </LinearLayout>
+    <Button
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/custome_button_green"
+        android:text="Next"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="@+id/editText2"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
-</LinearLayout>
+</FrameLayout>
