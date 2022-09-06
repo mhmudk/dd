@@ -10,6 +10,7 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/bg_otp.xml" value="0.141" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/bg_password.xml" value="0.1595" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/boy_think.xml" value="0.137" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/btn_choose_dwayer.xml" value="0.1605" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/button_background.xml" value="0.1595" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/button_background_edittext.xml" value="0.137" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/cash_payment.xml" value="0.141" />
@@ -17,6 +18,7 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/custom_button.xml" value="0.2195" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/custome_button_green.xml" value="0.2195" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/custome_loginbg_green.xml" value="0.2215" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/edittext_otp.xml" value="0.1605" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/gradiant.xml" value="0.141" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2195" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/info_r.xml" value="0.2195" />
@@ -26,20 +28,21 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/onboarding_indicator_inactive.xml" value="0.141" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/started_happy.xml" value="0.141" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/started_shoppingtwo.xml" value="0.1015" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/stroke_otp.xml" value="0.2035" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/font/arial_text.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/font/fonts.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_forget_password.xml" value="0.264" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_getstarted.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_home.xml" value="0.4" />
-        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_login.xml" value="0.5264293419633226" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_main.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_nav_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_new_password.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_otpnew_password.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_register.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_sent_otp.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_signup.xml" value="0.2421875" />
-        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_splach_screen.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_sent_otp.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_signup.xml" value="0.4" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_splach_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_splach_screen_five.xml" value="0.18981481481481483" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_splach_screen_four.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_splach_screen_fهرث.xml" value="0.25416666666666665" />
@@ -59,13 +62,14 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/contactus.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/content_nav_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/contract_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/dwayer_choose.xml" value="0.264" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/forgetpassword.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/home.xml" value="0.264" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/home2.xml" value="0.264" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/home_dialog.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/home_list.xml" value="0.536" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/home_list2.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/information.xml" value="0.264" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/information.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/language.xml" value="0.20555555555555555" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/list_profile.xml" value="0.2" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/login.xml" value="0.1" />
@@ -88,7 +92,7 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/toolbar.xml" value="0.264" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/toolbar_changepassword.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/toolbar_contactus.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/toolbar_home.xml" value="0.536" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/toolbar_home.xml" value="0.8" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/toolbar_languauge.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/upload_deciment_category.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/upload_decument_category.xml" value="0.25416666666666665" />

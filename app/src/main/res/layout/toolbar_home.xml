@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/_90sdp"
-    android:background="@drawable/bg_category"
-    android:backgroundTint="@color/maincolor"
+    android:layout_height="@dimen/_70sdp"
+
+    android:background="@drawable/gradiant"
     android:elevation="@dimen/_5sdp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:background="@drawable/bgcateg"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/bgcateg">
 
         <ImageView
             android:id="@+id/imageButton"
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="368dp"
+            android:layout_marginBottom="19dp"
             android:rotation="180"
-            android:src="@drawable/menu_icon"
+            android:src="@drawable/back_iconwhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.461" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="88dp"
-            android:fontFamily="@font/roboto_bold"
-            android:text="Home"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_23ssp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-            app:layout_constraintStart_toEndOf="@+id/imageButton"
-            app:layout_constraintTop_toTopOf="@+id/imageButton" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.appcompat.widget.Toolbar>

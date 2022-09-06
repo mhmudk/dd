@@ -5,103 +5,118 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradiant">
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:background="@drawable/bg_login_new2"
-    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-
-        android:layout_marginEnd="148dp"
-        android:src="@drawable/ic_logo_updated"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editText2"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_50sdp"
-        android:layout_marginLeft="@dimen/_10sdp"
-        android:layout_marginRight="@dimen/_10sdp"
-        android:background="@drawable/input_phone_number"
-        android:fontFamily="@font/roboto"
-        android:hint="Phone Number"
-        android:paddingLeft="@dimen/_5sdp"
-        android:textColor="@color/white"
-        android:textSize="@dimen/_14ssp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.64"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.156" />
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_login_new2">
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:buttonTint="@color/white"
-        android:fontFamily="@font/roboto"
-        android:text="I have accepted the"
-        android:textColor="@color/white"
-        android:textSize="@dimen/_12ssp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
-        app:layout_constraintVertical_bias="0.042" />
+        <ImageView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
 
-    <TextView
+            android:layout_marginEnd="148dp"
+            android:src="@drawable/ic_logo_updated"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        android:id="@+id/textView24"
-        android:layout_width="wrap_content"
-        android:layout_height="28dp"
-        android:layout_gravity="center"
-        android:fontFamily="@font/roboto"
-        android:text="Terms and Conditions"
-        android:textColor="#2500EE"
-        android:textSize="@dimen/_12ssp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="@+id/checkBox"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
-        app:layout_constraintStart_toEndOf="@+id/checkBox"
-        app:layout_constraintTop_toTopOf="@+id/checkBox" />
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/input_phone_number"
+            android:fontFamily="@font/roboto"
+            android:hint="Phone Number"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.64"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.156" />
 
-    <View
-        android:layout_width="@dimen/_120sdp"
-        android:layout_height="1dp"
-        android:backgroundTint="#00818A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView24"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@+id/textView24"
-        app:layout_constraintVertical_bias="0.0" />
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
 
-    <Button
-        android:layout_width="@dimen/_250sdp"
-        android:layout_height="@dimen/_50sdp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/custome_button_green"
-        android:text="Next"
-        android:fontFamily="@font/roboto_bold"
-        android:textColor="@color/white"
-        android:textAllCaps="false"
-        android:textSize="@dimen/_16ssp"
-        app:layout_constraintEnd_toEndOf="@+id/editText2"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="@+id/editText2"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText2"
+            app:layout_constraintVertical_bias="0.042" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:fontFamily="@font/roboto"
+            android:text="I have accepted the "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/checkBox"
+            app:layout_constraintEnd_toStartOf="@+id/textView28"
+            app:layout_constraintStart_toEndOf="@+id/checkBox"
+            app:layout_constraintTop_toTopOf="@+id/checkBox" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginEnd="66dp"
+            android:fontFamily="@font/roboto"
+            android:text="Terms and Conditions"
+            android:textColor="#2500EE"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/textView27"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBox"
+            app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+
+        <View
+            android:layout_width="@dimen/_115sdp"
+            android:layout_height="1dp"
+            android:layout_gravity="end"
+            android:background="#2500EE"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="@+id/textView28"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/textView28"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/custome_button_green"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintEnd_toEndOf="@+id/editText2"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="@+id/editText2"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </FrameLayout>
