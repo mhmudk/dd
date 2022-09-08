@@ -14,52 +14,30 @@
         android:theme="@style/Theme.Dwayer"
         tools:targetApi="31">
         <activity
-            android:name=".ui.ViewFlipper.ViewFlipper"
-            android:exported="false"></activity>
-        <activity
-            android:name=".ui.NewPassword"
-            android:exported="false" />
-        <activity
-            android:name=".ui.OtpnewPassword"
-            android:exported="false" />
-        <activity
-            android:name=".ui.ForgetPassword"
-            android:exported="false" />
-        <activity
-            android:name=".Login.Login"
-
-            android:exported="false" />
-        <activity
-            android:name=".Register.Register"
-            android:exported="false" />
-        <activity
-            android:name=".ui.Home"
-            android:exported="false" />
-        <activity
-            android:name=".test_splach_screen"
-            android:exported="true" >
+            android:name=".defination.Defination"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".ui.StartToHome"
+            android:name=".ui.ForgetPassword"
             android:exported="false" />
         <activity
-            android:name=".Transactions"
+            android:name=".Login.Login"
             android:exported="false" />
         <activity
-            android:name=".nav_home"
-            android:exported="false"
-            android:label="@string/title_activity_nav_home"
-            android:theme="@style/Theme.Dwayer.NoActionBar" />
+            android:name=".ui.Home"
+            android:exported="false" />
+
+
+
         <activity
             android:name=".SplachScreen"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="false" />

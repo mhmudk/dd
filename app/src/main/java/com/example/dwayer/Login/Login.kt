@@ -51,9 +51,8 @@ class Login : AppCompatActivity() {
     */
     private fun connect() {
 
-        button = findViewById(R.id.welcome)
-        forgetPassword = findViewById(R.id.goto_forgetpassword)
-        signUp_login = findViewById(R.id.goto_signup_login)
+
+
     }
 
     private fun transactions() {

@@ -7,19 +7,53 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.dwayer.ui.home.HomeFragment"
+        android:name="com.example.dwayer.defination.StepOne"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
+        tools:layout="@layout/fragment_step_one" >
+        <action
+            android:id="@+id/action_nav_home_to_setptwo"
+            app:destination="@id/setptwo" />
+    </fragment>
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.dwayer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/setptwo"
+        android:name="com.example.dwayer.setpone"
+        android:label="fragment_setpone"
+        tools:layout="@layout/fragment_step_two" >
+        <action
+            android:id="@+id/action_setptwo_to_setpthree"
+            app:destination="@id/setpthree" />
+    </fragment>
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.dwayer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/setpthree"
+        android:name="com.example.dwayer.setpone"
+        android:label="fragment_setpone"
+        tools:layout="@layout/fragment_step_three" >
+        <action
+            android:id="@+id/action_setpthree_to_stephour"
+            app:destination="@id/stephour" />
+    </fragment>
+    <fragment
+        android:id="@+id/stephour"
+        android:name="com.example.dwayer.setpone"
+        android:label="fragment_setpone"
+        tools:layout="@layout/fragment_step_four" >
+        <action
+            android:id="@+id/action_stephour_to_stepfive"
+            app:destination="@id/stepfive" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepfive"
+        android:name="com.example.dwayer.setpone"
+        android:label="fragment_setpone"
+        tools:layout="@layout/fragment_step_five" >
+        <action
+            android:id="@+id/action_stepfive_to_stepsix"
+            app:destination="@id/stepsix" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepsix"
+        android:name="com.example.dwayer.setpone"
+        android:label="fragment_setpone"
+        tools:layout="@layout/fragment_step_six" />
+
 </navigation>
