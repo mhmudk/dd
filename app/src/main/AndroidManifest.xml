@@ -14,15 +14,16 @@
         android:theme="@style/Theme.Dwayer"
         tools:targetApi="31">
         <activity
-            android:name=".defination.Defination"
+            android:name=".Login.SignUP"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-
+        <activity
+            android:name=".Login.SentOtp"
+            android:exported="true"></activity>
+        <activity
+            android:name=".defination.Defination"
+            android:exported="true" />
         <activity
             android:name=".ui.ForgetPassword"
             android:exported="false" />
@@ -32,12 +33,15 @@
         <activity
             android:name=".ui.Home"
             android:exported="false" />
-
-
-
         <activity
             android:name=".SplachScreen"
-            android:exported="false"></activity>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="false" />

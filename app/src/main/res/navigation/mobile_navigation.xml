@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/setptwo"
-        android:name="com.example.dwayer.setpone"
+        android:name="com.example.dwayer.defination.StepTwo"
         android:label="fragment_setpone"
         tools:layout="@layout/fragment_step_two" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/setpthree"
-        android:name="com.example.dwayer.setpone"
+        android:name="com.example.dwayer.defination.StepThree"
         android:label="fragment_setpone"
         tools:layout="@layout/fragment_step_three" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/stephour"
-        android:name="com.example.dwayer.setpone"
+        android:name="com.example.dwayer.defination.StepFour"
         android:label="fragment_setpone"
         tools:layout="@layout/fragment_step_four" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/stepfive"
-        android:name="com.example.dwayer.setpone"
+        android:name="com.example.dwayer.defination.StepFive"
         android:label="fragment_setpone"
         tools:layout="@layout/fragment_step_five" >
         <action
@@ -52,7 +52,7 @@
     </fragment>
     <fragment
         android:id="@+id/stepsix"
-        android:name="com.example.dwayer.setpone"
+        android:name="com.example.dwayer.defination.StepSix"
         android:label="fragment_setpone"
         tools:layout="@layout/fragment_step_six" />
 

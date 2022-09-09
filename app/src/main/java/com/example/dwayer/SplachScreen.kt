@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.dwayer.Login.Login
 
 
 class SplachScreen : AppCompatActivity() {
@@ -13,7 +14,7 @@ class SplachScreen : AppCompatActivity() {
 
         Handler().postDelayed({
 
-    //            startActivity(Intent(this, ViewFlipper::class.java))
+        startActivity(Intent(this, Login::class.java))
 
 
 
