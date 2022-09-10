@@ -13,11 +13,7 @@ class SplachScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splach_screen)
 
         Handler().postDelayed({
-
         startActivity(Intent(this, Login::class.java))
-
-
-
         }, 2000)
     }
 }

@@ -11,5 +11,5 @@
     <color name="textcolor">#42997c</color>
     <color name="maincolor">#1A886A</color>
     <color name="colornew">#37A987</color>
-
+<color name="btn_cliked_next">#91C7D1</color>
 </resources>
