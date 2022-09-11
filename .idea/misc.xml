@@ -35,9 +35,12 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/onboarding_indicator_inactive.xml" value="0.141" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/spinner_bg.xml" value="0.1645" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/spinner_input.xml" value="0.2035" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/spinner_item.xml" value="0.1645" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/started_happy.xml" value="0.141" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/started_shoppingtwo.xml" value="0.1015" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/stroke_otp.xml" value="0.2035" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/thumb.xml" value="0.1645" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/drawable/track.xml" value="0.1645" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/font/arial_text.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/font/fonts.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_choose_association.xml" value="0.22592592592592592" />
@@ -47,7 +50,7 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_getstarted.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_home2.xml" value="0.25025641025641027" />
-        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_information.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_information.xml" value="0.72" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_main.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/activity_nav_home.xml" value="0.25416666666666665" />
@@ -89,7 +92,7 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/fragment_step_five.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/fragment_step_four.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/fragment_step_one.xml" value="0.264" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/fragment_step_one.xml" value="0.176" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/fragment_step_six.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/fragment_step_three.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/fragment_step_two.xml" value="0.25416666666666665" />
@@ -112,6 +115,12 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/privacy.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/profilesetting.xml" value="0.264" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/signup.xml" value="0.2059071729957806" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/spinner__item.xml" value="0.2228310502283105" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/spinner_iteem.xml" value="0.2" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/spinner_iteem2.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/spinner_iteem3.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/spinner_iteem4.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/spinner_item.xml" value="0.2228310502283105" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/splachscreen.xml" value="0.37464387464387466" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/splachscreencopy.xml" value="0.6" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/layout/ss.xml" value="0.25416666666666665" />
@@ -135,6 +144,7 @@
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/menu/bottom_nav.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MAHMOUD/AndroidStudioProjects/Dwayer/app/src/main/res/menu/nav_home.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/MAHMOUD/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.22592592592592592" />
       </map>
     </option>
   </component>
