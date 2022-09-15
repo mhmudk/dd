@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+
+        android:background="@drawable/gradiant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_25sdp"
+            android:rotation="180"
+            android:src="@drawable/back_iconwhite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_320sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:background="@drawable/btn_choose_dwayer"
+            android:elevation="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:stateListAnimator="@null"
+            android:text="5000 L.E"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            android:translationZ="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:background="@drawable/btn_choose_dwayer"
+            android:elevation="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:stateListAnimator="@null"
+            android:text="10000 L.E"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            android:translationZ="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:background="@drawable/btn_choose_dwayer"
+            android:elevation="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:stateListAnimator="@null"
+            android:text="15000 L.E"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            android:translationZ="10dp" />
+
+        <Button
+            android:id="@+id/button_choose_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:background="@drawable/btn_choose_dwayer"
+            android:elevation="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:stateListAnimator="@null"
+            android:text="20000 L.E"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            android:translationZ="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:background="@drawable/btn_choose_dwayer"
+            android:elevation="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:stateListAnimator="@null"
+            android:text="25000 L.E"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            android:translationZ="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_choose_n"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="19dp"
+
+        android:background="@drawable/custome_button_green"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

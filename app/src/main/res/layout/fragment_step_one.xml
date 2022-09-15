@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradiant">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Where do you live ?"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_31ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.067" />
+
+            <Spinner
+                android:id="@+id/spinnerOne"
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/spinner_input"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView25"
+                app:layout_constraintVertical_bias="0.027" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="@dimen/_45sdp"
+
+                android:background="@drawable/spinner_input"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerOne"
+                app:layout_constraintVertical_bias="0.014" />
+
+            <EditText
+                android:id="@+id/input1"
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/edit_input"
+                android:fontFamily="@font/roboto"
+                android:hint="Str name, number"
+                android:paddingLeft="@dimen/_10sdp"
+                android:inputType="text"
+                android:textSize="@dimen/_14ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner2"
+                app:layout_constraintVertical_bias="0.026" />
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/edit_input"
+                android:fontFamily="@font/roboto"
+                android:hint="Building name, number"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_14ssp"
+                android:inputType="text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input1"
+                app:layout_constraintVertical_bias="0.029" />
+
+            <EditText
+
+                android:id="@+id/editText6"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/edit_input"
+                android:fontFamily="@font/roboto"
+                android:hint="Apartment NO"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_14ssp"
+                android:inputType="number"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.908"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input2"
+                app:layout_constraintVertical_bias="0.04" />
+
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/edit_input"
+                android:fontFamily="@font/roboto"
+                android:hint="Floor NO"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_14ssp"
+                android:inputType="number"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/editText6"
+                app:layout_constraintHorizontal_bias="0.04"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input2"
+                app:layout_constraintVertical_bias="0.04" />
+
+            <EditText
+                android:id="@+id/input5"
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/edit_input"
+                android:fontFamily="@font/roboto"
+                android:hint="Landmark"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_14ssp"
+                android:inputType="text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input3"
+
+
+                app:layout_constraintVertical_bias="0.052" />
+
+            <Spinner
+
+                android:id="@+id/spinner3"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/spinner_input"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/spinner4"
+                app:layout_constraintHorizontal_bias="0.617"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input5"
+                app:layout_constraintVertical_bias="0.114" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/spinner_input"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.906"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input5"
+                app:layout_constraintVertical_bias="0.105" />
+
+            <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/spinner3"
+    app:layout_constraintHorizontal_bias="0.2"
+    app:layout_constraintStart_toStartOf="@+id/spinner3"
+    app:layout_constraintTop_toBottomOf="@+id/spinner3"
+    app:layout_constraintVertical_bias="1.0"
+    >
+
+              <androidx.appcompat.widget.SwitchCompat
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/switchh"
+                  android:text="This is a work address"
+                  android:textSize="@dimen/_17ssp"
+                  android:textColor="@color/white"
+                  android:fontFamily="@font/roboto"
+                  android:thumb="@drawable/sw_thumb"
+                  app:track="@drawable/sw_track"
+                  android:layoutDirection="rtl"
+                  app:switchPadding="8dp"
+
+/>
+    <Button
+
+        android:id="@+id/button_stepone"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="54dp"
+        android:background="@drawable/custome_button_green"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16ssp"
+        />
+</LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
